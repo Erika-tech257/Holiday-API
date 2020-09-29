@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holiday API</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link ref="text/css" rel="stylesheet" href="calendar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    body {
+        background-image: url("assets/new-york-city-Brooklyn\ bridge.jpg");
+       opacity: .8;
+    }
+</style>
+<body>
+    
+    
+    <section id = "header">
+    <nav class ="navbar"></nav>
+    <h1>Holidays Celebrated In New York</h1>
+</section>
+
+<div class = "flex-contanier">
+<div class="card-deck">
+    <div class="card h-100">
+      <a href = "https://www.history.com/topics/holidays/new-years">
+      <img src="assets/New-Years-Eve-2020-by-Noel-Y-Calingasan.jpg" class="card-img-top" alt="Fireworks on New Years Eve in New York"></a>
+      <div class="card-body">
+        <h5 class = "cardTitle1"></h5>
+          <p class = "cardBody1"></p> 
+          <p1 class = "cardFooter1"></p1>
+            <!-- create own title -->
+            <!-- create own text -->
+      </div>
+    </div>
+    <div class="card h-100">
+      <a href = "https://www.history.com/this-day-in-history/mlk-federal-holiday-declared">
+      <img src="assets/mlkjr.jpg" class="card-img-top" alt="Martin Luther King Jr"></a>
+      <div class="card-body">
+        <h5 class = "cardTitle2"></h5>
+          <p class = "cardBody2"></p>
+          <p1 class = "cardFooter2"></p1>
+         <!-- create own title -->
+        <!-- create own text -->
+      </div>
+    </div>
+    <div class="card h-100">
+      <a href = "https://www.history.com/topics/holidays/chinese-new-year-video">
+      <img src="assets/Chinese New Year.jpg" class="card-img-top" alt="Chinese New Year"></a>
+      <div class="card-body">
+        <h5 class = "cardTitle3"></h5>
+          <p class = "cardBody3"></p>
+          <p1 class = "cardFooter3"></p1>
+            <!-- create own title -->
+            <!-- create own text -->
+      </div>
+    </div>
+ 
+    <div class="card h-100">
+      <a href = "https://www.world-heart-federation.org/world-heart-day/about-whd/">
+      <img src="assets/Heart-unsplash.jpg" class="card-img-top" alt="A red heart lays on a bright yellow background"></a>
+      <div class="card-body">
+        <h5 class = "cardTitle4"></h5>
+          <p class = "cardBody4"></p>
+          <p1 class = "cardFooter4"></p1>
+            <!-- create own title -->
+            <!-- create own text -->
+      </div>
+    </div>
+    <div class="card h-100">
+      <a href = "https://www.daysoftheyear.com/days/world-soil-day/">
+      <img src="assets/soil.jpg" class="card-img-top" alt="A plant in soil"></a>
+      <div class="card-body">
+        <h5 class = "cardTitle5"></h5>
+          <p class = "cardBody5"></p>
+          <p1 class = "cardFooter5"></p1>
+         <!-- create own title -->
+        <!-- create own text -->
+      </div>
+    </div>
+    <div class="card h-100">
+      <a href = "https://www.history.com/topics/christmas/history-of-christmas">
+      <img src="assets/Christmas-unsplash.jpg" class="card-img-top" alt="Nativity Scene"></a>
+      <div class="card-body">
+        <h5 class = "cardTitle6"></h5>
+          <p class = "cardBody6"></p>
+          <p1 class="cardFooter6"></p1>
+            <!-- create own title -->
+            <!-- create own text -->
+      </div>
+    </div>
+</div>
+</div>
+
+
+<table class = "countdownContainer">
+  <tr class = "info">
+    <td colspan = "4">Christmas Countdown</td>
+  </tr>
+  <tr class = "info">
+    <td id = "days">88</td>
+    <td id = "hours">07</td>
+    <td id = "minutes">22</td>
+    <td id = "seconds">43</td>
+    </tr>
+    <tr>
+      <td>Days</td>
+      <td>Hours</td>
+      <td>Minutes</td>
+      <td>Seconds</td>
+    </tr>
+
+</table>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="api2.js"></script>
+
+
+</body>
+</html>
